@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Números em JS</title>
+</head>
+<body>
+    <h1>Vários cálculos em JS</h1>
+
+    <button onclick="calculos()">Clique para calcular</button>
+    <section id="resultado">
+        <p>O resultado vai aparecer aqui...</p>
+    </section>
+
+    <script>
+        function calculos(){
+            numero = Number(window.prompt("Digite o numero que deseja saber os calculos"))
+            absoluto = Math.abs(numero)
+            inteiro = Math.trunc(numero)
+            inteiroprox = Math.round(numero)
+            raiz = Math.sqrt(numero)
+            cubico = Math.cbrt(numero)
+            sobre2 = math.pow(numero , 2)
+            sobre3 = Math.pow(numero , 3)
+
+            let res = document.getElementById("resultado")
+            res.innerHTML = `<p> O número a ser analisado aqui será o <strong>${numero}</strong></p>`
+        }
+    </script>
+</body>
+</html>
