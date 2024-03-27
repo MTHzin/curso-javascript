@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-color: rgb(109, 153, 235);
+
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+#divhora {
+    background-color: white;
+    color: black;
+    text-align: center;
+    width: 600px;
+    height: 390px;
+    margin: auto;
+    padding-top: 15px;
+    border-radius: 10px;
+    box-shadow: 10px 8px 5px -3px rgba(0,0,0,0.35);
+    -webkit-box-shadow: 10px 8px 5px -3px rgba(0,0,0,0.35);
+    -moz-box-shadow: 10px 8px 5px -3px rgba(0,0,0,0.35);
+
+}
+
+#divimg{
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+img {
+    width: 100%;
+}
