@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body{
+    background-color: rgb(109, 109, 245);
+}
+h1{
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+#dados{
+    background-color: white;
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.342);
+}
+#ano, #sexo, #botao{
+    text-align: justify;
+    padding-top: 30px;
+}
+
+#verificar{
+    padding: 3px;
+}
+
+#imagem{
+    height: 300px;
+    padding: 5px;
+}
