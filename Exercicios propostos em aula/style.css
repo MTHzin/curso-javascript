@@ -8,6 +8,8 @@ h1{
     text-align: center;
     padding: 20px;
     color: white;
+    text-decoration: bolder;
+    font-size: 40px;
 }
 
 #divhora {
@@ -26,7 +28,6 @@ h1{
 }
 
 #divimg{
-    background-color: red;
     width: 300px;
     height: 300px;
     border-radius: 50%;
